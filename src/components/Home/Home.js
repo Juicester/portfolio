@@ -12,9 +12,11 @@ import Projects from '../Projects/Projects';
 
 function Home() {
 	return (
-		<div>
-			<h1>Video Game Designer & Full-Stack Developer</h1>
-			<h4>
+		<div className='outer-home'>
+			<h1 className='title-words'>
+				Video Game Designer & Full-Stack Developer
+			</h1>
+			<h4 className='sub-words'>
 				I design and code web applications, video games and love what I do.
 			</h4>
 			<About />

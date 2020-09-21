@@ -16,4 +16,20 @@
 	display: flex;
 	background-color: rgb(156, 71, 252);
 	justify-content: center;
+	margin: 10px;
+}
+
+.linkedin {
+	background-color: darkturquoise;
+	margin: 10px;
+}
+
+.instagram {
+	background-color: dodgerblue;
+	margin: 10px;
+}
+
+.github {
+	background-color: firebrick;
+	margin: 10px;
 }

@@ -7,8 +7,8 @@ function About() {
 	const [modalShow, setModalShow] = React.useState(false);
 
 	return (
-		<div>
-			<h3>
+		<div className='about-container'>
+			<h3 className='words'>
 				Welcome to my website! I'm Justin Pedowitz. I recently graduated from
 				Adelphi University where I majored in Computer Science with a
 				concentration in Game Development. I graduated with honors in Computer

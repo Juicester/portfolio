@@ -16,17 +16,17 @@ function Footer() {
 					</Col>
 				</Row> */}
 			<Row>
-				<Col md='auto'>
+				<Col className='linkedin'>
 					<Link to={'https://www.linkedin.com/in/justinpedowitz/'}>
 						<SocialIcon url='https://www.linkedin.com/in/justinpedowitz/' />
 					</Link>
 				</Col>
-				<Col>
+				<Col className='instagram'>
 					<Link to={'https://www.instagram.com/'}>
 						<SocialIcon url='https://www.instagram.com/' />
 					</Link>
 				</Col>
-				<Col>
+				<Col className='github'>
 					<Link to={'https://github.com/Juicester'}>
 						<SocialIcon url='https://github.com/Juicester' />
 					</Link>

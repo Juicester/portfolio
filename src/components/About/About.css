@@ -13,3 +13,12 @@
 	/* border-color: black; */
 	text-decoration: none;
 }
+.about-container {
+	background-color: gray;
+	margin: 10px;
+}
+
+.words {
+	background-color: gold;
+	margin: 10px;
+}
