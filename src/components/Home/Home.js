@@ -6,20 +6,21 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '../About/About';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 
 function Home() {
 	return (
 		<div className='outer-home'>
 			<h1 className='title-words'>
-				Video Game Designer & Full-Stack Developer
+				Full-Stack Developer & Video Game Designer
 			</h1>
 			<h4 className='sub-words'>
 				I design and code web applications, video games and love what I do.
 			</h4>
 			<About />
+			<Skills />
 			<Projects />
 		</div>
 	);

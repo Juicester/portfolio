@@ -1,14 +1,14 @@
 .outer-home {
-	background-color: chartreuse;
+	background-color: #cc99ff;
 	margin: 10px;
 }
 
 .title-words {
-	background-color: coral;
+	/* background-color: coral; */
 	margin: 10px;
 }
 
 .sub-words {
-	background-color: darkorange;
+	/* background-color: darkorange; */
 	margin: 10px;
 }

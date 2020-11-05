@@ -10,6 +10,7 @@ function Projects() {
 		<div>
 			{/* <Container className='container-fluid d-flex justify-content-center'> */}
 			<Container>
+				<h1>My Work</h1>
 				<Row className='row1'>
 					<Col className='proj1'>
 						<Card>
