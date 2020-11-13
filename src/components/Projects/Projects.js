@@ -87,7 +87,6 @@ function Projects() {
 							<Card.Text>This Rubics Cube is the first real 3D Graphics example of any significance that I made. It is a rotating Rubics Cube.</Card.Text>
 						</Card>
 					</Col>
-					
 				</Row>
 			</Container>
 		</div>
