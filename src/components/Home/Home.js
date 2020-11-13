@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
+import Recent from '../Recent/Recent'
 
 function Home() {
 	return (
@@ -21,6 +22,7 @@ function Home() {
 			</h4>
 			<About />
 			<Skills />
+			<Recent />
 			<Projects />
 		</div>
 	);
