@@ -18,7 +18,7 @@ function Recent() {
 				<h1>Recent Work</h1>
 				<Row className='row1'>
 					<Col className='proj1'>
-						<Card>
+						<Card className='recent-card'>
 							<Link to={{ pathname: 'https://home.adelphi.edu/~ju21229/assets/maze_html/Maze.html'}} target='_blank'>
 								<Card.Title>NFL Analysis App</Card.Title>
 								<Card.Img src={NFLAnalysis}/>
@@ -27,7 +27,7 @@ function Recent() {
 						</Card>
 					</Col>
 					<Col className='proj2'>
-						<Card>
+						<Card className='recent-card'>
 							<Link to={{ pathname: 'https://home.adelphi.edu/~ju21229/AU3DMap.html'}} target='_blank'>
 							<Card.Title>Pathfinder Store</Card.Title>
 							<Card.Img src={PathfinderStore}/>
@@ -35,8 +35,10 @@ function Recent() {
 							<Card.Text>My capstone project, a 3D Map of my university. All aspects of the project were made in Unity, SketchUp and Blender.</Card.Text>
 						</Card>
 					</Col>
+				</Row>
+				<Row className='row2'>
 					<Col className='proj3'>
-						<Card>
+						<Card className='recent-card'>
 							<Link to={{ pathname: 'https://home.adelphi.edu/~ju21229/assets/knockdown_html/knockdown.html'}} target='_blank'>
 							<Card.Title>Hall of Games</Card.Title>
 							<Card.Img src={HallofGames}/>
@@ -44,10 +46,8 @@ function Recent() {
 							<Card.Text>Knockdown is a Unity game where you have to launch the ball from the slingshot into the star. To play, mouse over the slingshot, click and drag to move the ball and release to send it flying. Knockdown is based on Angry Birds.</Card.Text>
 						</Card>
 					</Col>
-				</Row>
-				<Row className='row2'>
 					<Col className='proj4'>
-						<Card>
+						<Card className='recent-card'>
 							<Link to={{ pathname: 'https://home.adelphi.edu/~ju21229/assets/terrain_html/Terrain.html'}} target='_blank'>
 							<Card.Title>Hangman</Card.Title>
 							<Card.Img src={Hangman}/>
