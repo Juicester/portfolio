@@ -3,6 +3,7 @@ import { CardGroup, Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import './Skills.css';
 
 function Skills() {
 	return (
@@ -10,7 +11,7 @@ function Skills() {
 			<Container>
 				<h1>Skillzzzz</h1>
 				<CardGroup>
-					<Card className='card'>
+					<Card className='skills-card'>
 						<Card.Header>Technical Tools & Skills</Card.Header>
 						<Card.Title>Image goes here</Card.Title>
 						<ListGroup className='list-group-flush'>
@@ -25,7 +26,7 @@ function Skills() {
 							<ListGroupItem>Maya</ListGroupItem>
 						</ListGroup>
 					</Card>
-					<Card className='card'>
+					<Card className='skills-card'>
 						<Card.Header>Languages & Libraries</Card.Header>
 						<Card.Title>Image goes here</Card.Title>
 						<ListGroup className='list-group-flush'>
