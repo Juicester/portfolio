@@ -45,3 +45,7 @@
 .recent-card {
 	/* max-height: 400px; */
 }
+
+.outer-recent {
+	background-color: #7510f7;
+}

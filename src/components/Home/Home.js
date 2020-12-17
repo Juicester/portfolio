@@ -9,7 +9,9 @@ import Card from 'react-bootstrap/Card';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
-import Recent from '../Recent/Recent'
+import Recent from '../Recent/Recent';
+import Image from 'react-bootstrap/Image';
+import DeviceSet from '../../images/ElectronicDeviceSet.png'
 
 function Home() {
 	return (
@@ -21,6 +23,7 @@ function Home() {
 				I design and code web applications, video games and love what I do.
 			</h4>
 			<About />
+			<Image src={DeviceSet} style={{ width: '22rem' }} fluid/>
 			<Skills />
 			<Recent />
 			<Projects />

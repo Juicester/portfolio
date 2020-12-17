@@ -31,6 +31,9 @@ function Footer() {
 						<SocialIcon url='https://github.com/Juicester' />
 					</Link>
 				</Col>
+				<Col>
+				<a href="https://www.vecteezy.com/free-vector/blank">Blank Vectors by Vecteezy</a>
+				</Col>
 			</Row>
 		</Container>
 	);

@@ -9,7 +9,7 @@ function Skills() {
 	return (
 		<div>
 			<Container>
-				<h1>Skillzzzz</h1>
+				<h1> My Skills</h1>
 				<CardGroup>
 					<Card className='skills-card'>
 						<Card.Header>Technical Tools & Skills</Card.Header>
