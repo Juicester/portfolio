@@ -46,6 +46,27 @@
 	/* max-height: 400px; */
 }
 
+.recent-card-text {
+	position: absolute;
+	top: 0;
+	/* top: 20; */
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(29, 106, 154, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+
+	/* transition effect. not necessary */
+	transition: opacity 0.2s, visibility 0.2s;
+}
+
+.recent-card:hover .recent-card-text {
+	visibility: visible;
+	opacity: 1;
+}
+
 .outer-recent {
 	background-color: #7510f7;
 }

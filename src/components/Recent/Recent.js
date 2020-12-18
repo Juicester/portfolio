@@ -28,7 +28,7 @@ function Recent() {
 								<Card.Title>NFL Analysis App</Card.Title>
 								<Card.Img src={NFLAnalysis} />
 							</Link>
-							<Card.Text>
+							<Card.Text className='recent-card-text'>
 								Maze is a Unity game where you need to find your way through a
 								maze to the exit! To play, use the mouse to look around and 'W',
 								'A', 'S', and 'D' to move.
@@ -45,7 +45,7 @@ function Recent() {
 								<Card.Title>Pathfinder Store</Card.Title>
 								<Card.Img src={PathfinderStore} />
 							</Link>
-							<Card.Text>
+							<Card.Text className='recent-card-text'>
 								My capstone project, a 3D Map of my university. All aspects of
 								the project were made in Unity, SketchUp and Blender.
 							</Card.Text>
@@ -64,7 +64,7 @@ function Recent() {
 								<Card.Title>Hall of Games</Card.Title>
 								<Card.Img src={HallofGames} />
 							</Link>
-							<Card.Text>
+							<Card.Text className='recent-card-text'>
 								Knockdown is a Unity game where you have to launch the ball from
 								the slingshot into the star. To play, mouse over the slingshot,
 								click and drag to move the ball and release to send it flying.
@@ -83,7 +83,7 @@ function Recent() {
 								<Card.Title>Hangman</Card.Title>
 								<Card.Img src={Hangman} />
 							</Link>
-							<Card.Text>
+							<Card.Text className='recent-card-text'>
 								Terrain is a Unity game used to show off our terrain building
 								skills. To play, use the mouse to look around and 'W', 'A', 'S',
 								and 'D' to move.
