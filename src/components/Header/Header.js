@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import JPLogo from '../../images/JP Logo.png';
 import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
 
 function Header() {
 	return (
-		<Navbar className='header-wrapper'>
+		<Navbar className='header-wrapper' expand='lg'>
 			<Navbar.Brand href='#home'>
 				<img
 					src={JPLogo}
@@ -17,6 +18,7 @@ function Header() {
 					alt='JP Logo'
 				/>
 			</Navbar.Brand>
+			<Nav className='mr-auto'></Nav>
 			<Button inline variant='primary' className='header-button'>
 				Contact Me
 			</Button>

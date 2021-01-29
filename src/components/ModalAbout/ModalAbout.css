@@ -1,20 +1,19 @@
 .modal {
-	/* font-family: 'Graduate', cursive; */
-	color: #301014;
+	color: white;
 }
 
 .body-modal {
-	background-color: #f8f4e3;
+	background-color: #7510f7;
 }
 
 .inside-modal-button {
-	background-color: #301014;
-	color: #a2a392;
-	border-color: #301014;
+	background-color: white;
+	color: #7510f7;
+	border-color: white;
 }
 
 .inside-modal-button:hover {
-	color: #301014;
-	background-color: #a2a392;
-	border-color: #a2a392;
+	color: white;
+	background-color: #7510f7;
+	border-color: white;
 }

@@ -8,7 +8,6 @@ function About() {
 
 	return (
 		<div className='about-container'>
-			<h2>Welcome to my digital portfolio! I'm Justin Pedowitz</h2>
 			<Button
 				className='modal-button'
 				variant='primary'

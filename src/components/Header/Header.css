@@ -1,8 +1,15 @@
 .header-button {
 	/* background-color: burlywood; */
-	float: right;
+	color: #7510f7;
+	border-color: #7510f7;
+	background-color: white;
+}
+.header-button:hover {
+	color: white;
+	border-color: #7510f7;
+	background-color: #7510f7;
 }
 
-/* .header-wrapper {
-	background-color: black;
-} */
+.header-wrapper {
+	background-color: white;
+}
