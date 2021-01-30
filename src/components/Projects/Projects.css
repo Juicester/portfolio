@@ -43,12 +43,15 @@
 }
 
 .project-card {
+	max-width: 20rem;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
 }
 
 .project-card-text {
 	position: absolute;
 	top: 0;
-	/* top: 20; */
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -61,10 +64,48 @@
 	/* align-items: center; */
 
 	/* transition effect. */
-	transition: opacity 0.2s, visibility 0.2s;
+	/* transition: opacity 0.2s, visibility 0.2s; */
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .project-card:hover .project-card-text {
 	visibility: visible;
 	opacity: 1;
+}
+
+.project-card:hover .project-card-text,
+.project-card:focus .project-card-text {
+	-ms-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.project-card:hover .project-card-text:before,
+.project-card:focus .project-card-text:before {
+	display: block;
+}
+
+.project-card:hover a,
+.project-card:focus a {
+	display: block;
+}
+
+.project-card-text:before {
+	content: '';
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(52, 73, 94, 0.75);
 }
