@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
@@ -9,8 +9,12 @@ import NFLAnalysis from '../../images/NFLAnalysisApp.png';
 import PathfinderStore from '../../images/pathfinderhomepage.png';
 import HallofGames from '../../images/HallOfGames.png';
 import Hangman from '../../images/hangman.jpeg';
+import ReactCardFlip from 'react-card-flip';
 
 function Recent() {
+
+	const [isFlipped, setFlipped] = useState(false);
+
 	return (
 		<div>
 			{/* <Container className='container-fluid d-flex justify-content-center'> */}
@@ -89,6 +93,38 @@ function Recent() {
 								and 'D' to move.
 							</Card.Text>
 						</Card>
+					</Col>
+				</Row>
+				<Row className='row3'>
+					<Col className='proj5'>
+						<ReactCardFlip isFlipped={isFlipped} flipDirection='horizontal'>
+							<Card>
+								<Link
+									to={{
+										pathname:
+											'https://home.adelphi.edu/~ju21229/assets/knockdown_html/knockdown.html',
+									}}
+									target='_blank'>
+									<Card.Title>Hall of Games</Card.Title>
+									<Card.Img src={HallofGames} />
+								</Link>
+								<Card.Text>
+									Knockdown is a Unity game where you have to launch the ball
+									from the slingshot into the star. To play, mouse over the
+									slingshot, click and drag to move the ball and release to send
+									it flying. Knockdown is based on Angry Birds.
+								</Card.Text>
+								<button onClick={() => setFlipped(true)}>Click to Flip</button>
+							</Card>
+							<Card>
+								<Card.Text>
+									Terrain is a Unity game used to show off our terrain building
+									skills. To play, use the mouse to look around and 'W', 'A',
+									'S', and 'D' to move.
+								</Card.Text>
+								<button onClick={() => setFlipped(false)}>Click to Flip</button>
+							</Card>
+						</ReactCardFlip>
 					</Col>
 				</Row>
 			</Container>
