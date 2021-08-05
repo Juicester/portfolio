@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 function Header() {
 	return (
 		<Navbar className='header-wrapper' expand='lg'>
-			<Navbar.Brand href='#home'>
+			<Navbar.Brand href='/'>
 				<img
 					src={JPLogo}
 					width='50'
@@ -19,9 +19,11 @@ function Header() {
 				/>
 			</Navbar.Brand>
 			<Nav className='mr-auto'></Nav>
-			<Button inline variant='primary' className='header-button'>
-				Contact Me
-			</Button>
+			<Link to={`/contact`}>
+				<Button inline variant='primary' className='header-button'>
+					Contact Me
+				</Button>
+			</Link>
 		</Navbar>
 	);
 }
