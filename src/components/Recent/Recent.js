@@ -13,7 +13,6 @@ import ReactCardFlip from 'react-card-flip';
 import Tilt from 'react-parallax-tilt';
 
 function Recent() {
-
 	const [isFlipped1, setFlipped1] = useState(false);
 	const [isFlipped2, setFlipped2] = useState(false);
 	const [isFlipped3, setFlipped3] = useState(false);
@@ -23,7 +22,7 @@ function Recent() {
 	return (
 		<div>
 			{/* <Container className='container-fluid d-flex justify-content-center'> */}
-			<Container className='outer-recent'>
+			<Container fluid className='outer-recent'>
 				<h1>Recent Work</h1>
 				<Row className='row1'>
 					<Col className='proj1'>
