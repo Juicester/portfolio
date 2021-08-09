@@ -1,46 +1,49 @@
 import React from 'react';
-import { CardGroup, Container } from 'react-bootstrap';
+import { CardColumns, CardGroup, Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import './Skills.css';
+import { KeyboardFill, CodeSlash } from 'react-bootstrap-icons';
 
 function Skills() {
 	return (
 		<div>
-			<Container>
+			<Container className='skills-card-outer'>
 				<h1> My Skills</h1>
 				<CardGroup>
 					<Card className='skills-card'>
 						<Card.Header>Technical Tools & Skills</Card.Header>
-						<Card.Title>Image goes here</Card.Title>
-						<ListGroup className='list-group-flush'>
+						<KeyboardFill size={50} className='skill-icon' />
+						<ListGroup variant='flush'>
 							<ListGroupItem>Unity</ListGroupItem>
-							<ListGroupItem variant='dark'>Git</ListGroupItem>
+							<ListGroupItem>Git</ListGroupItem>
+							<ListGroupItem>AWS</ListGroupItem>
 							<ListGroupItem>PostgreSQL</ListGroupItem>
-							<ListGroupItem variant='dark'>MongoDB</ListGroupItem>
+							<ListGroupItem>MongoDB</ListGroupItem>
 							<ListGroupItem>Word Press</ListGroupItem>
-							<ListGroupItem variant='dark'>Squarespace</ListGroupItem>
+							<ListGroupItem>Squarespace</ListGroupItem>
 							<ListGroupItem>SketchUp</ListGroupItem>
-							<ListGroupItem variant='dark'>Blender</ListGroupItem>
+							<ListGroupItem>Blender</ListGroupItem>
 							<ListGroupItem>Maya</ListGroupItem>
 						</ListGroup>
 					</Card>
 					<Card className='skills-card'>
 						<Card.Header>Languages & Libraries</Card.Header>
-						<Card.Title>Image goes here</Card.Title>
-						<ListGroup className='list-group-flush'>
-							<ListGroupItem variant='dark'>React</ListGroupItem>
+						<CodeSlash size={40} className='skill-icon' />
+						<ListGroup variant='flush'>
+							<ListGroupItem>React</ListGroupItem>
 							<ListGroupItem>Javascript</ListGroupItem>
-							<ListGroupItem variant='dark'>CSS</ListGroupItem>
+							<ListGroupItem>CSS</ListGroupItem>
 							<ListGroupItem>HTML</ListGroupItem>
-							</ListGroup>
-							<ListGroupItem variant='dark'>Python</ListGroupItem>
+							<ListGroupItem>Python</ListGroupItem>
 							<ListGroupItem>SQL</ListGroupItem>
-							<ListGroupItem variant='dark'>Django</ListGroupItem>
+							<ListGroupItem>GraphQL</ListGroupItem>
+							<ListGroupItem>Django</ListGroupItem>
 							<ListGroupItem>C#</ListGroupItem>
-							<ListGroupItem variant='dark'>Powershell</ListGroupItem>
-						</Card>
+							<ListGroupItem>Powershell</ListGroupItem>
+						</ListGroup>
+					</Card>
 				</CardGroup>
 			</Container>
 		</div>

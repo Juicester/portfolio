@@ -6,34 +6,28 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { SocialIcon } from 'react-social-icons';
+import { Linkedin, Github } from 'react-bootstrap-icons';
 
 function Footer() {
 	return (
-		<Container className='container-fluid d-flex justify-content-center footer'>
-			{/* <Row>
-					<Col>
-						<h3>This is the Footer Component</h3>
-					</Col>
-				</Row> */}
+		<Container fluid className='footer'>
 			<Row>
 				<Col className='linkedin'>
 					<Link to={'https://www.linkedin.com/in/justinpedowitz/'}>
-						<SocialIcon url='https://www.linkedin.com/in/justinpedowitz/' />
-					</Link>
-				</Col>
-				<Col className='instagram'>
-					<Link to={'https://www.instagram.com/'}>
-						<SocialIcon url='https://www.instagram.com/' />
+						<Linkedin size={70} />
 					</Link>
 				</Col>
 				<Col className='github'>
 					<Link to={'https://github.com/Juicester'}>
-						<SocialIcon url='https://github.com/Juicester' />
+						<Github size={70} />
 					</Link>
 				</Col>
-				<Col>
-				<a href="https://www.vecteezy.com/free-vector/blank">Blank Vectors by Vecteezy</a>
-				</Col>
+			</Row>
+			<Row>
+				<h4>Handmade by me ©2021</h4>
+			</Row>
+			<Row>
+				<h5>Made with React, Bootstrap, CSS</h5>
 			</Row>
 		</Container>
 	);

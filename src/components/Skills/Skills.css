@@ -1,3 +1,16 @@
 .skills-card {
-	/* width: 18rem; */
+	width: 18rem;
+}
+
+.skill-icon {
+	margin: auto;
+}
+
+.skills-card-outer {
+	/* margin: auto; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
