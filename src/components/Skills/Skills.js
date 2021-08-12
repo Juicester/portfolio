@@ -22,7 +22,7 @@ function Skills() {
 							<ListGroupItem>PostgreSQL</ListGroupItem>
 							<ListGroupItem>MongoDB</ListGroupItem>
 							<ListGroupItem>Word Press</ListGroupItem>
-							<ListGroupItem>Squarespace</ListGroupItem>
+							<ListGroupItem>SquareSpace</ListGroupItem>
 							<ListGroupItem>SketchUp</ListGroupItem>
 							<ListGroupItem>Blender</ListGroupItem>
 							<ListGroupItem>Maya</ListGroupItem>

@@ -33,7 +33,7 @@ function Projects() {
 	return (
 		<div>
 			{/* <Container className='container-fluid d-flex justify-content-center'> */}
-			<Container>
+			<Container fluid className='outer-container'>
 				<h1>Previous Work</h1>
 				<Row className='row1'>
 					<Col className='proj1'>

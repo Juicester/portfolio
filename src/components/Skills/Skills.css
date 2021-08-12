@@ -1,5 +1,6 @@
 .skills-card {
 	width: 18rem;
+	color: black;
 }
 
 .skill-icon {
@@ -13,4 +14,7 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-color: #7510f7;
+	color: white;
+	width: 100vw;
 }
