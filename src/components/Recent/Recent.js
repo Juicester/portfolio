@@ -29,7 +29,7 @@ function Recent() {
 		<div>
 			{/* <Container className='container-fluid d-flex justify-content-center'> */}
 			<Container fluid className='outer-recent'>
-				<h1>Recent Work</h1>
+				<h1 className='recent-title'>Recent Work</h1>
 				<Row className='row1'>
 					<Col className='proj1'>
 						<OverlayTrigger

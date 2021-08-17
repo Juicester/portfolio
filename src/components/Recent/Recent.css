@@ -14,31 +14,31 @@
 }
 
 .proj1 {
-	background-color: yellowgreen;
+	/* background-color: yellowgreen; */
 	margin: 10px;
 }
 .proj2 {
-	background-color: yellow;
+	/* background-color: yellow; */
 	margin: 10px;
 }
 .proj3 {
-	background-color: lightskyblue;
+	/* background-color: lightskyblue; */
 	margin: 10px;
 }
 .proj4 {
-	background-color: darkolivegreen;
+	/* background-color: darkolivegreen; */
 	margin: 10px;
 }
 .proj5 {
-	background-color: darkviolet;
+	/* background-color: darkviolet; */
 	margin: 10px;
 }
 .proj6 {
-	background-color: darkslategrey;
+	/* background-color: darkslategrey; */
 	margin: 10px;
 }
 .proj7 {
-	background-color: darkslategrey;
+	/* background-color: darkslategrey; */
 	margin: 10px;
 }
 
@@ -75,7 +75,9 @@
 .outer-recent {
 	/* background-color: #7510f7; */
 	width: 100vw;
-	/* margin-top: -30px; */
-	margin-left: -10px;
-	/* margin-right: -10px; */
+	margin-top: -180px;
+}
+
+.recent-title {
+	color: white;
 }

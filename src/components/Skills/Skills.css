@@ -8,13 +8,14 @@
 }
 
 .skills-card-outer {
-	/* margin: auto; */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
-	text-align: center;
+	/* text-align: center; */
 	background-color: #7510f7;
 	color: white;
-	width: 100vw;
+	min-width: 100vw;
+	padding-top: 70px;
+	padding-bottom: 250px;
 }
