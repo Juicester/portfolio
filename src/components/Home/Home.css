@@ -1,14 +1,16 @@
-.outer-home {
-	/* background-color: #7510f7; */
-	/* margin: 10px; */
+.home-image {
+	margin-bottom: 80px;
 }
 
 .title-words {
-	/* background-color: coral; */
 	margin: 10px;
 }
 
 .sub-words {
-	/* background-color: darkorange; */
 	margin: 10px;
+}
+
+.bottom-home-text {
+	max-width: 750px;
+	margin: 0px auto 120px auto;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css';
-import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Container from 'react-bootstrap/Container';
+// import { Link } from 'react-router-dom';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
@@ -17,15 +17,25 @@ function Home() {
 	return (
 		<div className='outer-home'>
 			<h1 className='title-words'>
-				Welcome to my digital portfolio! I'm Justin
+				Welcome to my digital portfolio, I'm Justin!
 			</h1>
 			<h4 className='sub-words'>
-				I design and code web applications, video games and love what I do.
+				I design and code web applications and video games
 			</h4>
-			<Image src={DeviceSet} style={{ width: '22rem' }} fluid />
-			<About />
+			<Image
+				src={DeviceSet}
+				style={{ width: '22rem' }}
+				fluid
+				className='home-image'
+			/>
+			<h5 className='bottom-home-text'>
+				I am a recent graduate from General Assembly and a developer and
+				technical advisor for Empava. Please peruse my portfolio; it is meant to
+				showcase my talents.
+			</h5>
 			<Skills />
 			<Recent />
+			<About />
 			<Projects />
 		</div>
 	);

@@ -26,7 +26,7 @@ function Projects() {
 
 	const renderTooltip = (props) => (
 		<Tooltip id='button-tooltip' {...props}>
-			Click for More Information and Link to the Project
+			Click to Flip for More Information and Link to the Project
 		</Tooltip>
 	);
 
@@ -46,29 +46,28 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped1}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card
+											onClick={() => setFlipped1(true)}
+											className='previous-card-front'>
+											<Card.Title>Maze</Card.Title>
+											<Card.Img src={Maze} />
+										</Card>
+										<Card
+											onClick={() => setFlipped1(false)}
+											className='previous-card-back'>
+											<Card.Text>
+												Maze is a Unity game where you need to find your way
+												through a maze to the exit! To play, use the mouse to
+												look around and 'W', 'A', 'S', and 'D' to move.
+											</Card.Text>
 											<Link
 												to={{
 													pathname:
 														'https://home.adelphi.edu/~ju21229/assets/maze_html/Maze.html',
 												}}
 												target='_blank'>
-												<Card.Title>Maze</Card.Title>
-												<Card.Img src={Maze} />
+												Click For Demo
 											</Link>
-											<button onClick={() => setFlipped1(true)}>
-												Click to Flip
-											</button>
-										</Card>
-										<Card>
-											<Card.Text>
-												Maze is a Unity game where you need to find your way
-												through a maze to the exit! To play, use the mouse to
-												look around and 'W', 'A', 'S', and 'D' to move.
-											</Card.Text>
-											<button onClick={() => setFlipped1(false)}>
-												Click to Flip
-											</button>
 										</Card>
 									</ReactCardFlip>
 								</Tilt>
@@ -85,7 +84,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped2}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
@@ -124,7 +123,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped3}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
@@ -167,7 +166,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped4}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
@@ -206,7 +205,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped5}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
@@ -246,7 +245,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped6}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
@@ -287,7 +286,7 @@ function Projects() {
 									<ReactCardFlip
 										isFlipped={isFlipped7}
 										flipDirection='horizontal'>
-										<Card className='project-card'>
+										<Card className='previous-card-front'>
 											<Link
 												to={{
 													pathname:
