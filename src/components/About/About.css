@@ -1,23 +1,13 @@
-.modal-button {
-	margin: 50px;
-	color: white;
-	border-color: #7510f7;
-	background-color: #7510f7;
-	font-size: 25px;
-}
-
-.modal-button:hover,
-.add-button:hover {
-	color: #7510f7;
-	border-color: #7510f7;
-	background-color: white;
-}
 .about-container {
-	/* background-color: gray; */
-	margin: 10px;
+	background-color: #7510f7;
+	width: 100vw;
+	margin-top: 40px;
+	padding-top: 80px;
+	padding-bottom: 250px;
 }
 
 .words {
-	background-color: gold;
-	margin: 10px;
+	color: white;
+	margin-left: 320px;
+	margin-right: 320px;
 }

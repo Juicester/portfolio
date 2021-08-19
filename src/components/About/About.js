@@ -8,14 +8,7 @@ function About() {
 
 	return (
 		<div className='about-container'>
-			{/* <Button
-				className='modal-button'
-				variant='primary'
-				onClick={() => setModalShow(true)}>
-				About Me
-			</Button>
-			<ModalAbout show={modalShow} onHide={() => setModalShow(false)} /> */}
-			<h5>
+			<h5 className='words'>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

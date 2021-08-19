@@ -56,12 +56,19 @@
 
 .previous-card-back {
 	max-width: 400px;
-	min-height: 245px;
+	min-height: 252px;
 }
 
 .outer-container {
-	background-color: #7510f7;
 	width: 100vw;
-	/* margin-left: -10px; */
-	margin-bottom: -10px;
+	margin-top: -170px;
+	margin-bottom: 200px;
+}
+
+.projects-title {
+	color: white;
+}
+
+.projects-card-title {
+	padding-top: 8px;
 }
