@@ -112,8 +112,9 @@ function Projects() {
 													pathname:
 														'https://home.adelphi.edu/~ju21229/AU3DMap.html',
 												}}
-												target='_blank'></Link>
-											<button>Click to Flip</button>
+												target='_blank'>
+												Click For Demo
+											</Link>
 										</Card>
 									</ReactCardFlip>
 								</Tilt>

@@ -5,29 +5,36 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { SocialIcon } from 'react-social-icons';
 import { Linkedin, Github } from 'react-bootstrap-icons';
 
 function Footer() {
 	return (
 		<Container fluid className='footer'>
-			<Row>
+			<Row className='footer-button-row'>
 				<Col className='linkedin'>
-					<Link to={'https://www.linkedin.com/in/justinpedowitz/'}>
-						<Linkedin size={70} />
+					<Link
+						to={{
+							pathname: 'https://www.linkedin.com/in/justinpedowitz/',
+						}}
+						target='_blank'>
+						<Linkedin size={40} />
 					</Link>
 				</Col>
 				<Col className='github'>
-					<Link to={'https://github.com/Juicester'}>
-						<Github size={70} />
+					<Link
+						to={{
+							pathname: 'https://github.com/Juicester',
+						}}
+						target='_blank'>
+						<Github size={40} />
 					</Link>
 				</Col>
 			</Row>
-			<Row>
+			<Row className='footer-text-row'>
 				<h4>Handmade by me ©2021</h4>
 			</Row>
-			<Row>
-				<h5>Made with React, Bootstrap, CSS</h5>
+			<Row className='footer-text-row'>
+				<p>Made with React, Bootstrap, CSS</p>
 			</Row>
 		</Container>
 	);

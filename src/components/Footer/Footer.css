@@ -1,18 +1,24 @@
 .footer {
-	/* display: flex; */
-	background-color: white;
-	justify-content: center;
-	text-align: center;
+	background-color: #7510f7;
+	color: white;
 }
 
 .linkedin {
 	margin: 10px;
 }
 
-.instagram {
+.github {
 	margin: 10px;
 }
 
-.github {
-	margin: 10px;
+.footer-button-row {
+	padding-top: 100px;
+	margin-bottom: 50px;
+	margin-right: 700px;
+	margin-left: 700px;
+}
+
+.footer-text-row {
+	justify-content: center;
+	text-align: center;
 }
