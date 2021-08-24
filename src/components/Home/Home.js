@@ -1,11 +1,5 @@
 import React from 'react';
 import './Home.css';
-// import Container from 'react-bootstrap/Container';
-// import { Link } from 'react-router-dom';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';

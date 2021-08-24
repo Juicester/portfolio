@@ -19,11 +19,11 @@ function Header() {
 				/>
 			</Navbar.Brand>
 			<Nav className='mr-auto'></Nav>
-			<Link to={`/contact`}>
+			{/* <Link to={`/contact`}>
 				<Button inline variant='primary' className='header-button'>
 					Contact Me
 				</Button>
-			</Link>
+			</Link> */}
 		</Navbar>
 	);
 }

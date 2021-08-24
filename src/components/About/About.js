@@ -1,21 +1,14 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import ModalAbout from '../ModalAbout/ModalAbout';
 import './About.css';
 
 function About() {
-	const [modalShow, setModalShow] = React.useState(false);
-
 	return (
 		<div className='about-container'>
 			<h5 className='words'>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-				mollit anim id est laborum.
+				Ever since my childhood, I have been in love with video games. The
+				ability to experience the lore of a story or to engage with other people
+				around the world has always appealed to me. Below are examples of the
+				games I made while as a student at Adelphi University.
 			</h5>
 		</div>
 	);

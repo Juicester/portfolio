@@ -11,11 +11,15 @@
 	margin: 10px;
 }
 
+.footer-upper-text {
+	padding-top: 50px;
+}
+
 .footer-button-row {
-	padding-top: 100px;
+	padding-top: 10px;
 	margin-bottom: 50px;
-	margin-right: 700px;
-	margin-left: 700px;
+	margin-right: 735px;
+	margin-left: 735px;
 }
 
 .footer-text-row {

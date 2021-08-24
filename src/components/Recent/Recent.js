@@ -58,7 +58,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												Empava
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												Empava is a start up which improves efficiency of sales
 												teams, increases throughput of sales opportunities and
 												strengthens customer retention via gamification of
@@ -101,7 +101,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												Crossing Thresholds
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												Crossing Thresholds is a non-profit organization that
 												has built 4 primary schools and one high school in
 												Kenya. In total, they are now feeding and educating
@@ -144,7 +144,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												NFL Analysis App
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												This app, developed when I was at General Assembly, is a
 												full-stack web application designed to visualize and
 												compare key performance statistics and trends for NFL
@@ -189,7 +189,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												Pathfinder Store
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												This app, developed when I was at General Assembly, is a
 												full-stack application to improve inventory experience
 												for Pathfinder Roleplaying Game players through improved
@@ -233,7 +233,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												Hall of Games
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												This app, developed when I was at General Assembly, is
 												an application which is a searchable database of video
 												games, displays my hall of fame, as well keeps you up to
@@ -276,7 +276,7 @@ function Recent() {
 											<Card.Title className='recent-card-title'>
 												Hangman
 											</Card.Title>
-											<Card.Text>
+											<Card.Text className='recent-card-back-text'>
 												This app, developed when I was at General Assembly, is
 												an example hangman style game.
 											</Card.Text>

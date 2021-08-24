@@ -11,7 +11,7 @@ function Skills() {
 		<div>
 			<Container className='skills-card-outer'>
 				<h1> My Skills</h1>
-				<CardGroup>
+				<CardGroup className='skills-card-group'>
 					<Card className='skills-card'>
 						<Card.Header>Technical Tools & Skills</Card.Header>
 						<KeyboardFill size={50} className='skill-icon' />

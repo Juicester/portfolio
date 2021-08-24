@@ -13,25 +13,15 @@
 	margin: auto;
 }
 
-.proj1 .proj2 .proj3 .proj4 .proj5 {
-	/* background-color: yellowgreen; */
-	/* margin: 10px; */
-}
-
-.proj4 .proj5 {
-	text-align: center;
-	justify-content: center;
-	margin-left: 250px;
-}
-
 .recent-card-front {
 	max-width: 400px;
-	/* min-height: 275px; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .recent-card-back {
 	max-width: 400px;
 	min-height: 252px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .outer-recent {
@@ -48,3 +38,8 @@
 .recent-card-title {
 	padding-top: 8px;
 }
+
+/* .recent-card-back-text {
+	text-align: center;
+	vertical-align: middle;
+} */

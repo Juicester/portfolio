@@ -70,7 +70,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/assets/maze_html/Maze.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Maze
 											</Link>
 										</Card>
 									</ReactCardFlip>
@@ -100,7 +100,7 @@ function Projects() {
 											onClick={() => setFlipped2(false)}
 											className='previous-card-back'>
 											<Card.Title className='projects-card-title'>
-												AU 3D Map
+												Adelphi 3D Map
 											</Card.Title>
 											<Card.Text>
 												My capstone project, a 3D Map of my university. All
@@ -113,7 +113,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/AU3DMap.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Adelphi 3D Map
 											</Link>
 										</Card>
 									</ReactCardFlip>
@@ -158,7 +158,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/assets/knockdown_html/knockdown.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Knockdown
 											</Link>
 										</Card>
 									</ReactCardFlip>
@@ -203,7 +203,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/assets/terrain_html/Terrain.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Terrain
 											</Link>
 										</Card>
 									</ReactCardFlip>
@@ -247,7 +247,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/assets/galaxor_html/Galaxor.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Galaxor
 											</Link>
 										</Card>
 									</ReactCardFlip>
@@ -269,7 +269,7 @@ function Projects() {
 											onClick={() => setFlipped7(true)}
 											className='previous-card-front'>
 											<Card.Title className='projects-card-title'>
-												Rubic's Cube
+												Rubik's Cube
 											</Card.Title>
 											<Card.Img src={Rubics} />
 										</Card>
@@ -277,12 +277,12 @@ function Projects() {
 											onClick={() => setFlipped7(false)}
 											className='previous-card-back'>
 											<Card.Title className='projects-card-title'>
-												Rubic's Cube
+												Rubik's Cube
 											</Card.Title>
 											<Card.Text>
-												This Rubics Cube is the first real 3D Graphics example
-												of any significance that I made. It is a rotating Rubics
-												Cube.
+												This Rubik's Cube is the first real 3D Graphics example
+												of any significance that I made. It is a rotating
+												Rubik's Cube.
 											</Card.Text>
 											<Link
 												to={{
@@ -290,7 +290,7 @@ function Projects() {
 														'https://home.adelphi.edu/~ju21229/assets/Rubics_Cube/RubicsCube.html',
 												}}
 												target='_blank'>
-												Click For Demo
+												Rubik's Cube
 											</Link>
 										</Card>
 									</ReactCardFlip>
