@@ -23,9 +23,9 @@ function Home() {
 				className='home-image'
 			/>
 			<h5 className='bottom-home-text'>
-				I am a recent graduate from General Assembly and a developer and
-				technical advisor for Empava. Please peruse my portfolio; it is meant to
-				showcase my talents.
+				I am a recent graduate from General Assembly, have a BS in computer
+				science from Adelphi, and am a developer and technical advisor for
+				Empava. Please peruse my portfolio; it is meant to showcase my talents.
 			</h5>
 			<Skills />
 			<Recent />
