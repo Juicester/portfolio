@@ -23,10 +23,10 @@ function Home() {
 				className='home-image'
 			/>
 			<h5 className='bottom-home-text'>
-				I am a recent graduate from General Assembly, have a BS in Computer
+				I am a recent graduate from General Assembly, have a B.S. in Computer
 				Science from Adelphi University, and am a developer and technical
-				advisor for Empava. Please peruse my portfolio; it is meant to showcase
-				my skills.
+				advisor for Empava. Please peruse my portfolio; you can find my vast
+				array of projects spanning web development to video games below.
 			</h5>
 			<Skills />
 			<Recent />
