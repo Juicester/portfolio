@@ -10,7 +10,7 @@ function About() {
 				around the world has always appealed to me. Below are examples of the
 				games I made while as a student at Adelphi University.
 			</h5>
-		</div>
+		</div> 
 	);
 }
 
